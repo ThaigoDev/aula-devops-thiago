@@ -1,0 +1,56 @@
+spring:
+  datasource:
+    url: ${DATASOURCE_URL:jdbc:postgresql://localhost:5432/apistock}
+    username: ${DATASOURCE_USERNAME:postgres}
+    password: ${DATASOURCE_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
+
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:default}
+
+  output:
+    ansi:
+      enabled: ALWAYS
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${GOOGLE_CLIENT_ID}
+            client-secret: ${GOOGLE_CLIENT_SECRET}
+
+jwt:
+  public:
+    key: classpath:keys/app.pub
+  private:
+    key: classpath:keys/app.key
+
+server:
+  port: ${PORT:8080}
+
+#PERFIL PRODUÇÃO
+---
+spring:
+  config:
+    activate:
+      on-profile: production
+
+  datasouce:
+    url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+
+  jpa:
+    show-sql: false
+jwt:
+  public:
+    key: ${PUBLIC_KEY}
+  private:
+    key: ${PRIVATE_KEY}
