@@ -1,4 +1,4 @@
-![deploy diagrama](https://github.com/usuario-attachments/assets/e761dae5-b233-4246-977a-09b38609625b)![arquiteture](https://github.com/usuario-attachments/assets/46b3c328-9cea-4da0-90d5-250acc46f210)![erent](https://github.com/usuario-attachments/assets/af87ac28-48d7-476a-a5e9-2ec260ae28fd)![diagrama-classes](https://github.com/usuario-attachments/assets/f5816e5f-03fe-41c9-9a67-e1ebf71ed0a8)![usecases](https://github.com/usuario-attachments/assets/a8238576-fb5d-4070-8796-a3d3e0049ccc)# Smart Stock — Sistema Inteligente de Gestão de Estoque
+# Smart Stock — Sistema Inteligente de Gestão de Estoque
 
 ## 1. Introdução
 
@@ -314,3 +314,28 @@ http://localhost:8080
 
 Este projeto foi desenvolvido para **fins educacionais**, com o objetivo de estudo de **arquitetura de software, modelagem UML e desenvolvimento backend com Spring Boot**.
 
+=======
+# ⚙️ aula-devops-thiago
+
+Repositório criado para fins acadêmicos, com foco em práticas de DevOps e desenvolvimento. Este projeto contém implementações de código em **Java**.
+
+## 📋 Sobre o Projeto
+Este repositório serve como base de estudos, versionamento de código e experimentações práticas para a integração entre desenvolvimento e operações (DevOps). 
+
+## 🛠️ Tecnologias Utilizadas
+* **Java** (Linguagem principal)
+* *Ferramentas de Build* (Ex: Maven ou Gradle - *ajuste conforme o seu projeto*)
+* *Práticas DevOps* (Ex: Git, Docker, Pipelines de CI/CD - *adicione conforme o andamento das aulas*)
+
+## 🚀 Como Executar Localmente
+
+### Pré-requisitos
+Certifique-se de ter instalado em sua máquina:
+* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/) (Versão 17 ou superior recomendada)
+* [Git](https://git-scm.com/)
+
+### Passos para execução
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/SEU_USUARIO/aula-devops-thiago.git](https://github.com/SEU_USUARIO/aula-devops-thiago.git)
+>>>>>>> 897d07de052b0d49bd541ca9af8f71e5aa82606e
